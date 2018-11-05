@@ -13,11 +13,11 @@ For installation instructions, check out our docs on [Configuring Test Coverage]
 
 Some installations may require the use of [additional subcommands](https://docs.codeclimate.com/docs/configuring-test-coverage#section-list-of-subcommands):
 
-`before-build` - notifies the test reporter of a pending test report
+- `before-build` - notifies the test reporter of a pending test report
 
-`after-build`- combines `format-coverage` and `upload-coverage`
+- `after-build`- combines `format-coverage` and `upload-coverage`
 
-`sum-coverage`- combines test reports from multiple sources (i.e. multiple test suites or parallelized CI builds) into one test report which is readable by Code Climate
+- `sum-coverage`- combines test reports from multiple sources (i.e. multiple test suites or parallelized CI builds) into one test report which is readable by Code Climate
 
 `format-coverage` - formats test report from local test suite into generalized format, readable by Code Climate
 
